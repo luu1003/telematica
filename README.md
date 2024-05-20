@@ -16,6 +16,6 @@ terraform apply
 4. Escribir yes para aplicar y copiar la ip publica dada para acceder al sitio (esperar que el servidor inicie).
 
 5. Ingresar al servidor y ejecutar los siguientes comandos:
-cd telematica
+cd /telematica
 sudo docker build -t web-image:v1 .  
 sudo docker run -d -p 80:80 web-image:v1
