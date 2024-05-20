@@ -1,2 +1,2 @@
-FROM httpd:2.4
-COPY ./public-html/ /usr/local/apache2/htdocs/
+FROM ubuntu:14.04
+COPY . /var/www/html/
